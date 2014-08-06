@@ -1,0 +1,4 @@
+pr
+==
+
+minimal promise library
