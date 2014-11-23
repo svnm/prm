@@ -8,13 +8,12 @@ function Pr () {
  
 Pr.prototype = {
  
-	// Code waiting for this promise uses the then() method 
-	// to be notified when the promise is complete. 
+	// Code waiting for this promise uses the then() method to be notified when the promise is complete. 
 	then: function (onResolve, onReject) {
 		this._thens.push({ resolve: onResolve, reject: onReject });
 	},
 
-	// The resolve() method is called when a promise is resolved 
+	// The resolve() method is called when a promise is resolved. 
 	// The resolved value (val) is passed by the resolver to this method. 
 	resolve: function (val) { 
 	  this._complete('resolve', val); 
@@ -35,5 +34,4 @@ Pr.prototype = {
 		while (aThen = this._thens[i++]) { aThen[which] && aThen[which](arg); }
 		delete this._thens;
 	}
-	
 };
