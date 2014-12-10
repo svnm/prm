@@ -14,7 +14,6 @@ Pr.prototype = {
 	},
 
 	// The resolve() method is called when a promise is resolved. 
-	// The resolved value (val) is passed by the resolver to this method. 
 	resolve: function (val) { 
 	  this._complete('resolve', val); 
 	},
