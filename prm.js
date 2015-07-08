@@ -1,12 +1,11 @@
 // License MIT
 // Example based on lightweight Promise and when() implementation
-// https://github.com/briancavalier/when.js.
 
-function Pr () {
+function Prm () {
 	this._thens = [];
 }
  
-Pr.prototype = {
+Prm.prototype = {
  
 	// Code waiting for this promise uses the then() method to be notified when the promise is complete. 
 	then: function (onResolve, onReject) {
@@ -34,3 +33,5 @@ Pr.prototype = {
 		delete this._thens;
 	}
 };
+
+module.exports = Prm;

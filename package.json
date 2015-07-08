@@ -1,0 +1,25 @@
+{
+  "name": "prm",
+  "version": "1.0.0",
+  "description": "minimal promise library",
+  "main": "prm.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/StevenIseki/prm.git"
+  },
+  "keywords": [
+    "promise",
+    "minimal promise",
+    "minimal",
+    "promise library"
+  ],
+  "author": "Steven Iseki",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/StevenIseki/prm/issues"
+  },
+  "homepage": "https://github.com/StevenIseki/prm"
+}
