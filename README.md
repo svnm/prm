@@ -1,7 +1,9 @@
-pr
+prm
 ==
 
-minimal promise library
+... minimal promise library
+
+![](http://static.zerochan.net/Haiyore%21.Nyaruko-san.full.546075.jpg)
 
 ## License
 
